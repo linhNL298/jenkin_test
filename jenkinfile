@@ -6,22 +6,5 @@ pipeline {
 				git 'https://github.com/linhNL298/jenkin_test.git'
 			}
 		}
-/*		stage('Build') {
-            steps {
-                echo 'Building..'
-            }
-        }
-
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
-*/		
     }
 }
